@@ -17,7 +17,7 @@ Este projeto implementa:
 2. **Co-simulação Mosaik + OpenDSS (`scenarios/scenario_LVTestCase.py`)**:
    - Execução local (*in-process*) acoplando o simulador da rede elétrica (`OpenDSSSimulator`), painéis fotovoltaicos (`PVPanelSimulator`), inversores inteligentes (`InverterSimulator`), coletores de dados (`Collector`) e visualização topológica web (`WebVisSimulator`).
 3. **Notebook de Estudo e Geração de Gráficos para Banner Acadêmico (`notebooks/estudo_LVTestCase.ipynb`)**:
-   - Reproduz os experimentos de alocação espacial, dimensionamento comercial, análise temporal de 24 horas e estudo paramétrico em função da **porcentagem de barras da rede com geração fotovoltaica** ($p_{\text{rede}} \in \{0\%, 2\%, 5\%, 8\%, 10\%\}$ das 906 barras elegíveis, correspondendo a 0, 18, 45, 72 e 91 PVs, com **5%** como caso base da co-simulação), avaliando elevação de tensão frente aos limites do **PRODIST Módulo 8** ($0{,}92\text{ a }1{,}05\text{ p.u.}$) e inversão de fluxo de potência no alimentador principal.
+   - Reproduz os experimentos de alocação espacial, dimensionamento comercial, análise temporal de 24 horas e estudo paramétrico em função da **porcentagem de barras da rede com geração fotovoltaica** ($p_{\text{rede}} \in \\{0\\%, 2\\%, 5\\%, 8\\%, 10\\%\\}$) das 906 barras elegíveis, correspondendo a 0, 18, 45, 72 e 91 PVs, com **5%** como caso base da co-simulação), avaliando elevação de tensão frente aos limites do **PRODIST Módulo 8** ($0{,}92\text{ a }1{,}05\text{ p.u.}$) e inversão de fluxo de potência no alimentador principal.
 
 ---
 
